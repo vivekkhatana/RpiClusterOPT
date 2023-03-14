@@ -1,0 +1,23 @@
+{
+	"apps": [
+    {
+      "name": "Secondary node 0",
+      "script": "secondary_node_v2.py",
+    },
+    {
+      "name": "Secondary node 1",
+      "script": "secondary_node_v2.py"
+    },
+    {
+      "name": "Secondary node 2",
+      "script": "secondary_node_v2.py",
+    },
+    {
+      "name": "Secondary node 3",
+      "script": "secondary_node_v2.py"
+    },
+    {
+      "name": "Secondary node 4",
+      "script": "secondary_node_v2.py",
+    }]
+}

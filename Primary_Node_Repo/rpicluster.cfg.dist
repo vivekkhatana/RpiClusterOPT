@@ -1,0 +1,18 @@
+[node_config]
+node_type = raspberrypi
+
+[primary]
+socket_port = 12345
+socket_bind_ip =
+influxdb_host = localhost
+influxdb_port = 8086
+influxdb_database_prefix = rpi_cluster_
+
+[secondary]
+socket_port = 12345
+primary_ip = 127.0.0.1
+
+[webserver]
+webserver_port = 8123
+webserver_host = localhost
+
