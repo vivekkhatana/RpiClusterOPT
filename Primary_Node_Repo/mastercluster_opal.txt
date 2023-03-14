@@ -1,0 +1,25 @@
+[node_config]
+node_type = raspberrypi
+
+[primary]
+socket_port = 3000
+socket_bind_ip = 10.131.37.39
+listen_opal_port = 7100
+listen_opal_ip = 10.131.37.39
+influxdb_host = localhost
+influxdb_port = 8086
+influxdb_database_prefix = rpi_cluster_
+
+[secondary]
+primary_ip = 10.131.37.39
+primary_port = 3000
+
+[webserver]
+webserver_port = 8123
+webserver_host = localhost
+
+[opalrt]
+opal_ip = 192.168.130.185
+opal_port = 7100
+
+

@@ -1,0 +1,9 @@
+[0]
+neighbors = [1]
+
+[1]
+neighbors = [0,2]
+
+
+[2]
+neighbors = [1]
