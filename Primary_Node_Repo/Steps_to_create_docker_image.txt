@@ -1,0 +1,2 @@
+# We will use this script to create and load a docker image on the demo node and then build the same image on the other secondary nodes
+
